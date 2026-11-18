@@ -1,14 +1,15 @@
+/* Estilos de los títulos h3 */
 h3 {
     color: white;
     font-size: 30px;
 }
 
+/* Imagen de fondo de la página */
 body {
-
     background-image: url("../imgs/fondo.jpg");
-
 }
 
+/* Encabezado principal de la página */
 header {
     background-color: black;
     color: white;
@@ -16,74 +17,65 @@ header {
     display: flex;
     align-items: center;
     gap: 90px;
-
 }
 
-
-
+/* Tamaño de los enlaces del encabezado */
 header a {
-
     font-size: 25px;
 }
 
-
+/* Sección de presentación de la página */
 .presentacion {
     color: white;
     padding: 90px;
     width: 800px;
-
 }
 
+/* Título de la sección de presentación */
 .presentacion h2 {
-
     font-size: 50px;
 }
 
+/* Texto descriptivo de la presentación */
 .presentacion p {
-
     font-size: 20px;
 }
 
-
+/* Ubicación del formulario para filtrar planetas */
 #formularioTemperatura {
-
     margin-left: auto;
 }
 
-
+/* Espaciado del carrusel del Sistema Solar */
 .carrusel1 {
     padding: 90px;
     padding-bottom: 100px;
-
-
 }
 
+/* Espaciado del carrusel de Kepler-90 */
 .carrusel2 {
     padding: 90px;
-
-
 }
 
+/* Colores del contenido de las tarjetas */
 .card-body {
     background-color: #141212;
     color: white;
 }
 
-/* CARRUSELES KEPLER-90 Y TRAPPIST-1 */
-
+/* Imágenes de los planetas en ambos carruseles */
 .card-img-top {
-
     height: 230px;
     object-fit: contain;
     background-color: black;
 }
 
-
-
+/* Altura de las tarjetas de los planetas */
 .card {
     height: 460px;
 }
 
+/* Estilos del pie de página */
 footer {
     color: white;
     background-color: black;
